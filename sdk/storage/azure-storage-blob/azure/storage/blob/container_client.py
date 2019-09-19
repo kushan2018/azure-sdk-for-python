@@ -1062,6 +1062,8 @@ class ContainerClient(StorageAccountHostsMixin):
         except StorageErrorException as error:
             process_storage_error(error)
 
+        return pipeline_response.context['MULTIPART_RESPONSE']
+
     def get_blob_client(
             self, blob,  # type: Union[str, BlobProperties]
             snapshot=None  # type: str
