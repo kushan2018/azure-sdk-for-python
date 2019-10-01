@@ -1,4 +1,4 @@
-# Dev documentation
+# # Dev documentation
 
 This folder contains documentation for developers of SDK: internal teams at Microsoft, or advanced contributors.
 
